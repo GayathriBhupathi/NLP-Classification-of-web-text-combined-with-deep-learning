@@ -46,86 +46,143 @@ The model classifies text into 10 categories:
 #Category#Category1Finance6Education2Sports7Health3Entertainment8Fashion4Technology9Travel5Politics10Autos
 
 🏗️ Model Architecture
+
 Input Text
+    
     ↓
+    
 BERT Embeddings (Contextual Representations)
+  
     ↓
+    
 BiGRU Layer (Captures forward & backward context)
+  
     ↓
+    
 CNN Layer (Extracts local n-gram features)
+  
     ↓
+    
 Attention Mechanism (Weights important tokens)
+  
     ↓
+    
 Fully Connected Layer
+  
     ↓
+    
 Softmax Output → Predicted Category
 
 📊 Performance Results
-MetricScoreAccuracy95.21%DatasetTHUCNewsLanguageChinese Web TextCategories10
+
+MetricScoreAccuracy95.21%
+
+Dataset -THUCNews
+
+Language-Chinese 
+
+Web TextCategories -10
 
 🌐 Web Application Features
 ✅ Pages / Modules
-FeatureDescription🏠 HomeOverview of the model and its capabilities📝 Classify TextEnter any text and get instant category prediction📂 Batch ClassificationUpload multiple texts for bulk classification📤 Upload FileUpload a .txt or .csv file for classification
+FeatureDescription🏠 
+HomeOverview of the model and its capabilities📝 Classify TextEnter any text and get instant category prediction📂 Batch ClassificationUpload multiple texts for bulk classification📤 Upload FileUpload a .txt or .csv file for classification
 
 🛠️ Tech Stack
-LayerTechnologyBackendDjango 4.2.0Deep LearningPyTorch 2.1.0, Transformers 4.36.0NLP ModelBERT (via HuggingFace Transformers)Data HandlingNumPy, Pandas, Scikit-learnDeploymentGunicorn + WhiteNoiseEnvironmentpython-dotenv
+LayerTechnologyBackendDjango 4.2.0
+Deep LearningPyTorch 2.1.0,
+Transformers 4.36.
+0NLP ModelBERT (via HuggingFace Transformers)D
+ata HandlingNumPy,
+Pandas, 
+Scikit-learnDeploymentGunicorn + WhiteNoiseEnvironmentpython-dotenv
 
 📦 Requirements
+
 txtDjango==4.2.0
+
 openai==1.12.0
+
 transformers==4.36.0
+
 torch==2.1.0
+
 torchvision==0.16.0
+
 numpy==1.24.3
+
 pandas==2.0.3
+
 scikit-learn==1.3.0
+
 python-dotenv==1.0.0
+
 gunicorn==20.1.0
+
 whitenoise==6.5.0
+
 chardet
+
 psutil
 
 ⚙️ Installation & Setup
 Step 1 — Clone the Repository
 bashgit clone https://github.com/your-username/bert-bgca-text-classifier.git
 cd bert-bgca-text-classifier
+
 Step 2 — Create a Virtual Environment
 bashpython -m venv venv
 source venv/bin/activate        # On Linux/Mac
 venv\Scripts\activate           # On Windows
+
 Step 3 — Install Dependencies
 bashpip install -r requirements.txt
+
 Step 4 — Set Up Environment Variables
 Create a .env file in the root directory:
 envSECRET_KEY=your_django_secret_key
 DEBUG=True
 ALLOWED_HOSTS=localhost,127.0.0.1
+
 Step 5 — Run Migrations
 bashpython manage.py migrate
+
 Step 6 — Start the Development Server
 bashpython manage.py runserver
 Open your browser and visit: http://127.0.0.1:8000/
 
 📁 Project Structure
 bert-bgca-text-classifier/
+
 │
-├── classifier/                  # Main Django app
+├── classifier/   
+                                  # Main Django app
+                                  
 │   ├── views.py                 # View logic for all pages
+
 │   ├── urls.py                  # URL routing
+
 │   ├── models.py                # Database models
+
 │   └── templates/               # HTML templates
+
 │       ├── home.html
 │       ├── classify.html
 │       ├── batch.html
 │       └── upload.html
 │
 ├── bert_bgca_model/             # Deep learning model files
+
 │   ├── model.py                 # BERT-BGCA architecture
+
 │   ├── train.py                 # Training script
+
 │   └── predict.py               # Inference / prediction logic
 │
 ├── static/                      # CSS, JS, Images
+
 ├── media/                       # Uploaded files
+
 ├── requirements.txt
 ├── manage.py
 └── README.md
@@ -134,23 +191,32 @@ bert-bgca-text-classifier/
 THUCNews — A large-scale Chinese news text dataset collected from Sina News RSS feeds.
 
 Total samples: ~740,000 news articles
+
 Categories: 10 news topics
+
 Used for: Training, Validation, and Testing the BERT-BGCA model
 
 
 📖 How It Works
 
-User inputs text via the web interface
-BERT tokenizes the text into contextual embeddings
-BiGRU processes the sequence in both forward and backward directions
-CNN applies filters to extract local patterns
-Attention layer highlights the most relevant tokens
-Softmax classifier outputs the predicted category with confidence score
+1.User inputs text via the web interface
+
+2.BERT tokenizes the text into contextual embeddings
+
+3.BiGRU processes the sequence in both forward and backward directions
+
+4.CNN applies filters to extract local patterns
+
+5.Attention layer highlights the most relevant tokens
+
+6.Softmax classifier outputs the predicted category with confidence score
 
 
 👩‍💻 Author
 B Gayathri
+
 B.Tech – Computer Science (Data Science)
+
 Samskruti College of Engineering and Technology, Hyderabad
 
 
