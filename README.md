@@ -19,25 +19,28 @@ The model is deployed as a Django web application that allows users to classify 
 (Add your project screenshots here — Home Page, Classify Text, Batch Classification, Upload File, Results)
 
 Home Page
-home page 1.jpeg
+
+<img src="home page 1.jpeg" width="600"/>
 
 TextClassification
 
 Single Text Classification(English,Chainese,Hindi)
-single taxt english3.jpeg
-singletext hindi 2.jpeg
-singletextchainese 1.jpeg
+
+<img src="single text english3.jpeg" width="600"/>
+<img src="singletext hindi 2.jpeg" width="600"/>
+<img src="singletextchainese 1.jpeg" width="600"/>
 
 Batch Text Classification(English,Chainese,Hindi)
 
-batch text english3.jpeg
-batch text chaines 2.jpeg
-batch text hindi 4.jpeg
+<img src="batch text english3.jpeg" width="600"/>
+<img src="batch text chaines 2.jpeg" width="600"/>
+<img src="batch text hindi 4.jpeg" width="600"/>
 
 Upload File Text Classification
 
-uploads file 5.jpeg
-uploads file 6.jpeg
+<img src="uploads file 5.jpeg" width="600"/>
+
+<img src="uploads file 6.jpeg" width="600"/>
 🎯 Supported Categories
 The model classifies text into 10 categories:
 #Category#Category1Finance6Education2Sports7Health3Entertainment8Fashion4Technology9Travel5Politics10Autos
