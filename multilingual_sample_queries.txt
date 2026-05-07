@@ -1,0 +1,53 @@
+# Multi-lingual Sample Queries for Text Classifier (English, Chinese, Hindi)
+# You can copy-paste these lines directly into the Batch Classify textbox,
+# or upload this file in the Bulk/File Upload page.
+
+# === Sports ===
+The basketball team won their 10th consecutive game, setting a new league record.
+足球世界杯决赛吸引了全球数十亿观众观看。
+भारतीय क्रिकेट टीम ने विश्व कप के फाइनल में शानदार जीत हासिल की।
+
+# === Finance ===
+Interest rates are expected to rise next quarter as inflation concerns grow.
+加密货币市场经历大幅波动，比特币价格跌破关键支撑位。
+शेयर बाज़ार में आज भारी गिरावट दर्ज की गई, जिससे निवेशकों को बड़ा नुकसान हुआ।
+
+# === Technology ===
+Artificial intelligence is revolutionizing healthcare diagnostics and treatment planning.
+中国科学家在量子计算领域取得突破性进展。
+नई एआई तकनीक और स्मार्टफ़ोन सॉफ्टवेयर ने इंटरनेट की गति को कई गुना बढ़ा दिया है।
+
+# === Entertainment ===
+The highly anticipated sci-fi movie broke streaming platform records on its first day.
+这部电影获得了多项奥斯卡最佳导演奖提名。
+बॉलीवुड की इस नई फिल्म ने बॉक्स ऑफिस के सभी पुराने रिकॉर्ड तोड़ दिए हैं।
+
+# === Politics ===
+The government announced new environmental regulations for industrial carbon emissions.
+政府通过了一项具有历史意义的新宪章以推行社会改革。
+सरकार ने नए कानूनों और नीतियों के माध्यम से सुधार लागू करने का निर्णय लिया है।
+
+# === Education ===
+The university introduced a new scholarship program for international students studying AI.
+高考改革后，更加注重学生的综合素质和创新能力的培养。
+विश्वविद्यालय ने अगले सत्र से ऑनलाइन शिक्षा प्रणाली शुरू करने की घोषणा की है।
+
+# === Health ===
+Researchers developed a new vaccine that shows 95% effectiveness against variants.
+医生建议每天进行适当的锻炼和保持健康的饮食习惯。
+अस्पताल में नए और अत्याधुनिक चिकित्सा उपकरणों की सुविधा शुरू की गई है।
+
+# === Fashion ===
+The Paris fashion week showcased innovative clothing designs from emerging indie designers.
+今年春季最流行的穿搭风格是复古风与现代简约的结合。
+इस साल के फैशन ट्रेंड्स में पारंपरिक कपड़ों के साथ आधुनिक शैली का मिश्रण देखा जा रहा है।
+
+# === Travel ===
+The new high-speed rail line connects major cities, reducing travel time by half and boosting tourism.
+暑假期间，去往海滨城市的特价航班和酒店预订量激增。
+गर्मियों की छुट्टियों में लोग पहाड़ों और हिल स्टेशनों पर घूमने जाना पसंद करते हैं।
+
+# === Autos ===
+The new electric vehicle features an advanced autonomous driving system and longer battery range.
+新能源汽车在去年的销量增长了一倍，特斯拉和比亚迪继续领跑市场。
+नई इलेक्ट्रिक कार ने एक बार चार्ज होने पर सबसे लंबी दूरी तय करने का रिकॉर्ड बनाया है।

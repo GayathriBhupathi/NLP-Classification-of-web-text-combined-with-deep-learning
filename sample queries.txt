@@ -1,0 +1,75 @@
+batch_test_samples = [
+    # Sports (4 samples)
+    "The basketball team won their 10th consecutive game, setting a new league record.",
+    "Olympic athletes are preparing for the upcoming summer games with intense training.",
+    "足球世界杯决赛吸引了全球数十亿观众观看。",
+    "这位网球选手在法网公开赛上赢得了她的第20个大满贯冠军。",
+    
+    # Finance/Stocks (4 samples)
+    "Interest rates are expected to rise next quarter as inflation concerns grow.",
+    "The company's stock price plummeted after disappointing quarterly earnings report.",
+    "加密货币市场经历大幅波动，比特币价格跌破关键支撑位。",
+    "分析师预测明年经济增长将放缓至3%以下。",
+    
+    # Technology (4 samples)
+    "Artificial intelligence is revolutionizing healthcare diagnostics and treatment planning.",
+    "The new smartphone features a foldable display and 5G connectivity.",
+    "特斯拉发布了自动驾驶系统的重大更新。",
+    "中国科学家在量子计算领域取得突破性进展。",
+
+    
+    # Entertainment (4 samples)
+    "The highly anticipated sequel broke streaming platform records on its first day.",
+    "A-list celebrities gathered for the prestigious awards ceremony last night.",
+    "这部电影获得了多项奥斯卡提名。",
+    "流行歌星宣布将于明年举办全球巡回演唱会。",
+    
+    # Mixed categories (4 samples)
+    "The government announced new environmental regulations for industrial emissions.",  # Politics
+    "Researchers developed a new vaccine that shows 95% effectiveness against variants.",  # Health
+    "The fashion week showcased innovative designs from emerging designers.",  # Fashion
+    "New high-speed rail line connects major cities, reducing travel time by half."  # Travel
+       
+    #hindi text 
+    "1. **Technology**: तकनीक ने हमारे जीवन को आसान बना दिया है, जिससे काम तेज़ और अधिक कुशलता से हो रहा है।
+
+2. **Education**: शिक्षा में डिजिटल माध्यमों के उपयोग से विद्यार्थियों को कहीं भी और कभी भी सीखने का अवसर मिल रहा है।
+
+3. **Food**: भोजन के क्षेत्र में नई तकनीकों से खाना बनाने और उसे सुरक्षित रखने के तरीके बेहतर हुए हैं।
+
+4. **Entertainment**: मनोरंजन के लिए अब लोग ऑनलाइन प्लेटफॉर्म्स के माध्यम से फिल्में, गाने और गेम्स का आनंद लेते हैं।
+
+5. **Technology**: आर्टिफिशियल इंटेलिजेंस और मशीन लर्निंग जैसी तकनीकें भविष्य को और अधिक उन्नत बना रही हैं।
+
+6. **Education**: ई-लर्निंग और वर्चुअल क्लासरूम ने पढ़ाई को अधिक रोचक और इंटरैक्टिव बना दिया है।
+
+7. **Food**: फूड डिलीवरी ऐप्स के कारण अब घर बैठे विभिन्न प्रकार के व्यंजन आसानी से मंगाए जा सकते हैं।
+
+8. **Entertainment**: सोशल मीडिया ने लोगों को अपने विचार साझा करने और दूसरों से जुड़ने का एक नया माध्यम दिया है।
+
+9. **Technology**: तकनीकी विकास से उद्योग और व्यापार में भी तेजी आई है, जिससे अर्थव्यवस्था मजबूत हो रही है।
+
+10. **Education**: आधुनिक शिक्षा प्रणाली में तकनीक के उपयोग से विद्यार्थियों का समग्र विकास संभव हो रहा है।"
+ 
+ #english text 
+ "1. **Technology**: Technology has made our lives easier by helping us complete tasks faster and more efficiently.
+
+2. **Education**: The use of digital tools in education allows students to learn anytime and from anywhere.
+
+3. **Food**: In the food sector, new technologies have improved cooking methods and food preservation.
+
+4. **Entertainment**: People now enjoy movies, music, and games through online platforms.
+
+5. **Technology**: Advanced technologies like artificial intelligence and machine learning are shaping the future.
+
+6. **Education**: E-learning and virtual classrooms have made studying more interactive and engaging.
+
+7. **Food**: Food delivery apps make it easy to order a variety of dishes from home.
+
+8. **Entertainment**: Social media provides a platform for people to share ideas and connect with others.
+
+9. **Technology**: Technological development has accelerated growth in industries and businesses.
+
+10. **Education**: Modern education systems use technology to support the overall development of students."
+
+]
