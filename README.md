@@ -16,7 +16,7 @@ The model is deployed as a Django web application that allows users to classify 
 
 🖼️ Screenshots
 
-(Add your project screenshots here — Home Page, Classify Text, Batch Classification, Upload File, Results)
+ Home Page, Classify Text, Batch Classification, Upload File, Results
 
 Home Page
 
